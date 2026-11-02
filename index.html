@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3ebdc">
+  <meta name="description" content="The wedding invitation of Abanoub and Mariam — Thursday, November 12, 2026, at Virgin Mary Church in Zeitoun.">
+  <title>Abanoub & Mariam — Our Wedding</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to invitation</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="opening" id="opening" role="dialog" aria-modal="true" aria-label="Open Abanoub and Mariam's wedding invitation">
+    <div class="opening-ambient" aria-hidden="true"></div>
+    <div class="botanical botanical-left" aria-hidden="true"><svg viewBox="0 0 260 520" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 504C90 381 61 237 244 29M58 398C8 367 20 300 66 299M85 322C146 310 170 255 162 217M132 245C65 226 67 167 114 139M170 175C218 186 250 145 241 108" stroke="#79816A" stroke-width="2" opacity=".65"/><g fill="#a0a989" opacity=".76"><ellipse cx="53" cy="373" rx="15" ry="40" transform="rotate(-43 53 373)"/><ellipse cx="102" cy="297" rx="13" ry="36" transform="rotate(43 102 297)"/><ellipse cx="103" cy="209" rx="13" ry="37" transform="rotate(-45 103 209)"/><ellipse cx="185" cy="164" rx="14" ry="38" transform="rotate(47 185 164)"/></g><g fill="#fffaf0" stroke="#e5cfae" stroke-width="1.6"><circle cx="62" cy="399" r="18"/><circle cx="150" cy="254" r="24"/><circle cx="229" cy="60" r="25"/><circle cx="105" cy="138" r="16"/></g><g fill="#f5e8d4"><circle cx="62" cy="399" r="9"/><circle cx="150" cy="254" r="11"/><circle cx="229" cy="60" r="12"/><circle cx="105" cy="138" r="8"/></g></svg></div>
+    <div class="botanical botanical-right" aria-hidden="true"><svg viewBox="0 0 260 520" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 504C90 381 61 237 244 29M58 398C8 367 20 300 66 299M85 322C146 310 170 255 162 217M132 245C65 226 67 167 114 139M170 175C218 186 250 145 241 108" stroke="#79816A" stroke-width="2" opacity=".65"/><g fill="#a0a989" opacity=".76"><ellipse cx="53" cy="373" rx="15" ry="40" transform="rotate(-43 53 373)"/><ellipse cx="102" cy="297" rx="13" ry="36" transform="rotate(43 102 297)"/><ellipse cx="103" cy="209" rx="13" ry="37" transform="rotate(-45 103 209)"/><ellipse cx="185" cy="164" rx="14" ry="38" transform="rotate(47 185 164)"/></g><g fill="#fffaf0" stroke="#e5cfae" stroke-width="1.6"><circle cx="62" cy="399" r="18"/><circle cx="150" cy="254" r="24"/><circle cx="229" cy="60" r="25"/><circle cx="105" cy="138" r="16"/></g><g fill="#f5e8d4"><circle cx="62" cy="399" r="9"/><circle cx="150" cy="254" r="11"/><circle cx="229" cy="60" r="12"/><circle cx="105" cy="138" r="8"/></g></svg></div>
+    <div class="opening-hearts" aria-hidden="true"><span>♡</span><span>♡</span><span>✧</span><span>♡</span><span>✧</span></div>
+    <div class="opening-top">A LOVE STORY BEGINS <span class="tiny-flourish">✦</span> ABANOUB & MARIAM</div>
+    <button id="openInvite" class="envelope-trigger" type="button" aria-label="Open the wedding envelope and enter the invitation">
+      <span class="envelope-stage">
+        <span class="envelope-back"></span>
+        <span class="invitation-insert">
+          <span class="insert-ornament">✦</span>
+          <span class="insert-label">THE WEDDING OF</span>
+          <span class="insert-names">Abanoub <i>&</i> Mariam</span>
+          <span class="insert-rule"></span>
+          <span class="insert-date">12 NOVEMBER 2026</span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-fold"></span>
+        <span class="envelope-flap"><span class="envelope-seal">A <i>&</i> M</span></span>
+      </span>
+    </button>
+    <p class="opening-instruction" id="openingInstruction"><span class="opening-instruction-icon">✧</span> TAP TO OPEN OUR INVITATION & HEAR OUR SONG <span class="opening-instruction-icon">✧</span></p>
+    <div class="opening-bottom">ABANOUB & MARIAM <span>·</span> 12.11.2026</div>
+  </div>
+
+  <audio id="weddingAudio" preload="auto" loop playsinline src="assets/wedding-music.mp3"></audio>
+  <button type="button" class="audio-control" id="audioToggle" aria-label="Pause wedding music" aria-pressed="true" hidden><span class="music-ico" aria-hidden="true">♫</span><span id="audioText">MUSIC ON</span></button>
+  <header id="home" class="header">
+    <a class="brand" href="#home" aria-label="Abanoub and Mariam, back to top">A <span>&</span> M</a>
+    <nav aria-label="Wedding invitation navigation">
+      <a href="#story">OUR STORY</a><a href="#details">DETAILS</a><a href="#countdown">COUNTDOWN</a><a href="#venue">LOCATION</a>
+    </nav>
+    <button type="button" class="menu-button" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span></button>
+    <nav id="mobileNav" class="mobile-nav" aria-label="Mobile navigation"><a href="#story">OUR STORY</a><a href="#details">DETAILS</a><a href="#countdown">COUNTDOWN</a><a href="#venue">LOCATION</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-label="Wedding announcement">
+      <div class="hero-image" role="img" aria-label="Abanoub and Mariam smiling together in warm afternoon sunlight"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow hero-eyebrow reveal">THE BEGINNING OF FOREVER</span>
+        <div class="fine-rule reveal"><span>✧</span></div>
+        <h1 class="hero-names reveal">Abanoub <span>&</span> Mariam</h1>
+        <p class="hero-lead reveal">A love story worth celebrating</p>
+        <div class="hero-date reveal">THURSDAY <span>·</span> NOVEMBER 12, 2026</div>
+      </div>
+      <a href="#story" class="scroll-cue" aria-label="Scroll to our story"><span>SCROLL TO DISCOVER</span><b aria-hidden="true">↓</b></a>
+    </section>
+
+    <section id="story" class="story section-pad">
+      <div class="section-flower" aria-hidden="true">❦</div><div class="story-soft-hearts" aria-hidden="true">♡ &nbsp; ✧ &nbsp; ♡</div>
+      <p class="eyebrow reveal">A BEAUTIFUL CHAPTER BEGINS</p>
+      <h2 class="script-heading reveal">Two hearts, one forever</h2>
+      <p class="story-copy reveal">A thousand little moments brought us here. Now, surrounded by the people we love most, we begin our greatest adventure together.</p>
+      <div class="story-photos">
+        <figure class="photo photo-left reveal"><img src="assets/couple-embrace.jpg" alt="Abanoub and Mariam sharing a quiet embrace" loading="lazy"><figcaption>With love</figcaption></figure>
+        <figure class="photo photo-center reveal"><img src="assets/rings.jpg" alt="The couple's hands showing their wedding rings" loading="lazy"><figcaption>Always & forever</figcaption></figure>
+        <figure class="photo photo-right reveal"><img src="assets/couple-portrait.jpg" alt="The couple smiling together in the garden" loading="lazy"><figcaption>Our beginning</figcaption></figure>
+      </div>
+      <div class="flourish" aria-hidden="true">— ❧ —</div>
+    </section>
+
+    <section id="details" class="details section-pad">
+      <div class="details-inner reveal">
+        <p class="eyebrow">TOGETHER WITH OUR FAMILIES</p>
+        <h2 class="script-heading">You're invited</h2>
+        <p class="invitation-copy">With joyful hearts, we invite you to share in the celebration of our wedding.</p>
+        <div class="detail-name">Abanoub <span>&</span> Mariam</div>
+        <div class="decorative-divider"><span>✦</span></div>
+        <div class="date-big"><span>THURSDAY</span><strong>12</strong><span>NOVEMBER 2026</span></div>
+        <p class="detail-time">AT SEVEN O'CLOCK IN THE EVENING</p>
+        <p class="detail-location">Virgin Mary Church<br>in Zeitoun</p>
+        <a href="#venue" class="text-link">VIEW LOCATION <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section id="countdown" class="countdown section-pad">
+      <div class="eyebrow reveal">UNTIL WE SAY “I DO”</div>
+      <h2 class="script-heading reveal">Counting down to forever</h2>
+      <div class="countdown-grid reveal" role="timer" aria-label="Time remaining until the wedding">
+        <div><span id="days">00</span><small>DAYS</small></div><div><span id="hours">00</span><small>HOURS</small></div><div><span id="minutes">00</span><small>MINUTES</small></div><div><span id="seconds">00</span><small>SECONDS</small></div>
+      </div>
+      <div id="countdownMessage" class="countdown-note reveal">Every second brings us closer to our special day.</div>
+    </section>
+
+    <section id="venue" class="venue section-pad">
+      <div class="venue-image reveal"><img src="assets/couple-golden-hour.jpg" alt="Abanoub and Mariam in warm sunlight" loading="lazy"></div>
+      <div class="venue-info reveal">
+        <div class="eyebrow">WHERE LOVE WILL BE CELEBRATED</div>
+        <h2 class="script-heading">The ceremony</h2>
+        <div class="church-icon" aria-hidden="true">✝</div>
+        <h3>Virgin Mary Church</h3>
+        <p>ZEITOUN · CAIRO · EGYPT</p>
+        <div class="venue-rule"></div>
+        <p class="venue-when">Thursday, November 12, 2026<br>7:00 PM</p>
+        <a class="map-button" href="https://www.google.com/maps/search/?api=1&query=Virgin%20Mary%20Church%20Zeitoun%20Cairo" target="_blank" rel="noopener noreferrer">OPEN IN GOOGLE MAPS <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="ending section-pad">
+      <span class="ending-mark" aria-hidden="true">❧</span><div class="end-flower" aria-hidden="true">✿ &nbsp; ❧ &nbsp; ✿</div>
+      <div class="eyebrow reveal">WITH ALL OUR LOVE</div>
+      <h2 class="script-heading reveal">We can't wait to<br>celebrate with you!</h2>
+      <p class="reveal">Your presence will make our day even more beautiful.</p>
+      <div class="ending-names reveal">Abanoub <span>&</span> Mariam</div>
+      <div class="ending-date">12 . 11 . 2026</div>
+    </section>
+  </main>
+  <footer>MADE WITH LOVE <span>✦</span> ABANOUB & MARIAM</footer>
+  <script src="script.js"></script>
+</body>
+</html>
